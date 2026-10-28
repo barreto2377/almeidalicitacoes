@@ -379,3 +379,6 @@ body {
         font-size: 0.8rem;
     }
 }
+/* Otimizacao de rolagem em dispositivos moveis */
+@media (max-width: 768px) { .hero { background-attachment: scroll !important; } }
+#localizacao { scroll-margin-top: 90px; }
